@@ -29,3 +29,5 @@ The plugins that come here are plugins that have external dependencies, for ex. 
 %meson_install
 
 %files
+%{_bindir}/wf-osk
+%{_datadir}/applications/wf-osk.desktop
