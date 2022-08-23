@@ -4,7 +4,7 @@ Release:        1
 Summary:        A very, very basic on-screen keyboard using gtkmm, virtual-keyboard-v1 and layer-shell protocols
 License:        MIT
 URL:            https://github.com/WayfireWM/wf-osk
-Source0:        hhttps://github.com/WayfireWM/wf-osk/releases/download/v%{version}/%{name}-%{version}.tar.xz
+Source0:        https://github.com/WayfireWM/wf-osk/archive/refs/heads/wf-osk-master.tar.gz
 
 BuildRequires:  meson
 BuildRequires:  pkgconfig(gtk-layer-shell-0)
@@ -19,7 +19,7 @@ Additional plugins for Wayfire
 The plugins that come here are plugins that have external dependencies, for ex. giomm.
 
 %prep
-%autosetup -p1
+%autosetup -n %{name}-master -p1
 
 %build
 %meson
