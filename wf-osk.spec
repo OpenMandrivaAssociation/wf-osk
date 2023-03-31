@@ -1,6 +1,6 @@
 Name:           wf-osk
 Version:        0.1
-Release:        1
+Release:        2
 Summary:        A very, very basic on-screen keyboard using gtkmm, virtual-keyboard-v1 and layer-shell protocols
 License:        MIT
 URL:            https://github.com/WayfireWM/wf-osk
